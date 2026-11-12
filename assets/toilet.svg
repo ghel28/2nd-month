@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" fill="none" role="img" aria-labelledby="title">
+  <title id="title">A glossy white porcelain toilet</title>
+  <defs>
+    <linearGradient id="porcelain" x1="65" y1="36" x2="181" y2="172" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".48" stop-color="#f5f6f7"/><stop offset=".8" stop-color="#dce1e5"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <linearGradient id="tank" x1="91" y1="32" x2="151" y2="91" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".65" stop-color="#f0f2f4"/><stop offset="1" stop-color="#d9dfe3"/></linearGradient>
+    <linearGradient id="bowl" x1="78" y1="89" x2="159" y2="144" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".55" stop-color="#edf0f2"/><stop offset="1" stop-color="#cbd2d8"/></linearGradient>
+    <linearGradient id="seat" x1="58" y1="83" x2="181" y2="118" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".55" stop-color="#f3f4f5"/><stop offset="1" stop-color="#d5dbe0"/></linearGradient>
+    <filter id="shadow" x="22" y="18" width="196" height="177" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <ellipse cx="121" cy="177" rx="68" ry="10" fill="#8b5260" opacity=".12" filter="url(#shadow)"/>
+  <path d="M91 33c0-5 4-9 9-9h49c5 0 9 4 9 9v54H91V33Z" fill="url(#tank)" stroke="#cbd1d6" stroke-width="2"/>
+  <path d="M101 35h46" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+  <rect x="143" y="43" width="8" height="3" rx="1.5" fill="#c0c7cc"/>
+  <path d="M84 81c0-5 4-9 9-9h72c5 0 9 4 9 9v9H84v-9Z" fill="url(#seat)" stroke="#cbd1d6" stroke-width="2"/>
+  <path d="M71 91c0-4 3-7 7-7h102c5 0 9 4 9 9 0 31-20 53-48 59l-5 20h-36l-4-20c-27-7-45-28-45-61Z" fill="url(#porcelain)" stroke="#cbd1d6" stroke-width="2"/>
+  <path d="M81 93c0-3 3-5 6-5h83c4 0 7 2 7 6 0 20-16 34-39 38H119c-22-4-38-18-38-39Z" fill="url(#bowl)" stroke="#d7dce0" stroke-width="2"/>
+  <path d="M94 96c2 15 13 23 30 27" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity=".9"/>
+  <path d="M101 171h55l7 10h-70l8-10Z" fill="url(#porcelain)" stroke="#cbd1d6" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M67 89c13 8 94 9 122 0" stroke="#c4cbd0" stroke-width="2" opacity=".75"/>
+</svg>
